@@ -34,13 +34,6 @@ function App() {
           <Footer/>
         </Container>
       </ContainerFooter>
-      <h1>Esse é um teste</h1>
-      <h1>Esse é um teste</h1>
-      <h1>Esse é um teste</h1>
-      <h1>Esse é um teste</h1>
-      <h1>Esse é um teste</h1>
-      <h1>Esse é um teste</h1>
-  
     </>
   )
 }
