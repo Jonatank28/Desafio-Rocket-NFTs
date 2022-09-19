@@ -1,0 +1,121 @@
+.footer{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.footerLogo{
+  padding-top: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ArrowFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-logo)
+}
+.FooterImput{
+  margin-top: 77px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+}
+
+.imput1{
+  width: 39%;
+  position: relative;
+  border-right: 1px solid var(--subtitle-color);
+}
+.imput1 h3:first-child{
+  font-size: 1.875rem;
+  color: var(--text-color);
+  font-weight: 500;
+  padding-top: 67px;
+}
+.imput1 h3:nth-child(2){
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: var(--color-logo);
+  padding-top: 1px;
+}
+.imput11{
+  display: flex;
+  align-items: center;
+}
+.imput11 input{
+  background-color: var(--color-input);
+  margin-top: 25px;
+  border: none;
+  width: 280px;
+  padding: 20px;
+}
+.imput11 input::placeholder{
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+}
+.imput11 button{
+  background-color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 122px;
+  padding: 16px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.imput11{
+  margin-bottom: 82px;
+}
+.imput1::after{
+  position: absolute;
+  content: '';
+  height: 1px;
+  top: 0px;
+  width: 55000px;
+  left: -1000px;
+  background-color: var(--subtitle-color);
+}
+.imput1::before{
+  position: absolute;
+  content: '';
+  height: 1px;
+  bottom: 0px;
+  width: 55000px;
+  left: -1000px;
+  background-color: var(--subtitle-color);
+}
+.imput2{
+  width: 60%;
+  display: flex;
+  margin-left: 122px;
+  gap: 129px;
+}
+.contato ul {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.contato ul li a{
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+}
+.FooterContato{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 61px;
+}
+.email p {
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+}
+.redesSociais ul{
+  display: flex;
+  align-items: center;
+  gap: 62px;
+}

@@ -1,0 +1,63 @@
+.section4{
+  margin-top: 150px;
+}
+.section4 h1{
+  color: var(--text-color);
+  font-size: 3.125rem;
+}
+.section4 h1 span{
+  color: var(--color-logo);
+  font-size: 3.125rem;
+}
+.astronauta{
+  width: 100%;
+  display: flex;
+  margin-top: 171px;
+  justify-content: space-between;
+}
+.astronautaL{
+  border-right: 1px solid var(--subtitle-color);
+  width: 50%;
+}
+.astronautaMain h3{
+  color: var(--text-color);
+  font-size: 1.875rem;
+}
+.astronautaSpan{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.astronautaSpan span:nth-child(2){
+  font-size: 1.25rem;
+  color: var(--subtitle-color);
+}
+.astronautaSpan span:last-child{
+  font-size: 1.25rem;
+  color: var(--color-logo);
+}
+.astronautaMain .astronautaImagem{
+  margin-top: 26px;
+  margin-bottom: 63px;
+}
+.dd{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  text-align: end;
+}
+.astronaltaTImagem{
+  width: 350px;
+  position: relative;
+}
+.astronaltaTImagem2{
+  text-align: right;
+}
+.noMargin{
+  margin-bottom: 0px !important;
+}
+.seta{
+  position: absolute;
+  right: 0;
+  top: -66px;
+}

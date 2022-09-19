@@ -1,0 +1,7 @@
+.containerImagem{
+  background-image: url(../../../assets/background.png);
+  background-size: cover;
+  z-index: -1;
+  overflow-x: hidden;
+  width: 100vw;
+}

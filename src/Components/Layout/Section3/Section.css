@@ -1,0 +1,55 @@
+.section3{
+  display: flex;
+  width: 100%;
+  gap: 68px;
+  border-bottom: 1px solid var(--subtitle-color);
+}
+.section3L{
+  width: 29%;
+  border-right: 1px solid var(--subtitle-color);
+  display: flex;
+  justify-content: right;
+  padding-top: 133px;
+}
+.section3Lla{
+  width: 80%;
+  text-align: right;
+  padding-right: 69px;
+}
+.padd h1{
+  color: var( --text-color);
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+.padd p{
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 90px;
+}
+.section3D{
+  width: 71%;
+}
+.section3D{
+  display: flex;
+  flex-direction: column;
+  padding-top: 126px;
+}
+.ldcima{
+  width: 75%;
+  display: flex;
+  gap: 50px;
+}
+.lorem{
+  margin-top: 63px;
+}
+.ldcima p{
+  color: var( --text-color);
+  font-size: 1.125rem;
+}
+.ldbaixo{
+  margin-top: 71px;
+}
+.textospan{
+  color: var( --color-logo);
+}

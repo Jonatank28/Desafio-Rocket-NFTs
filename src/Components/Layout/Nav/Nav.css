@@ -1,0 +1,35 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+}
+.MetaMask{
+  display: flex;
+  align-items: center;
+  width: 230px;
+  height: 50px;
+  justify-content:center;
+  gap: 18px;
+  background-color: var(--text-color);
+}
+.MetaMask p {
+  color: var(--black-text);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.l1{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.l1 li a {
+  font-size: 1.125rem;
+  color: var(--text-color);
+  padding: .1rem 0.2rem;
+  transition: color .2s;
+} 
+.l1 li a:hover {
+  color: var(--subtitle-color);
+  transition: color .2s;
+}
